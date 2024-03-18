@@ -3,31 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Dimpo's Weather App</title>
   </head>
   <body>
     <header>
-      <form>
+      <form id="searchForm">
         <input
           type="search"
           name="city"
           id="citySearch"
           placeholder="Search a city..."
+          class="searchInput"
           required
         />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" class="search" />
       </form>
     </header>
     <main>
-      <div>
-        <h1>Midrand</h1>
-        <p>
-          Time, scattered clouds
-          <br />
-          humidity: 60%, Wind: 2.5 km/h
-        </p>
+      <div class="weatherAppData">
+        <div>
+          <h1>Midrand</h1>
+          <p>
+            Time, scattered clouds
+            <br />
+            humidity: <strong>60%</strong> | Wind: <strong>2.5 km/h</strong>
+          </p>
+        </div>
+        <div id="currentTemperature">
+          <div class="icon">🌧️</div>
+
+          <div class="temp">
+            <strong>24</strong>
+          </div>
+          <div class="unit">°C</div>
+        </div>
       </div>
-      <div>🌧️ <strong>24°</strong><sub>C</sub></div>
     </main>
     <footer>
       Coded by <a href="https://github.com/Dimpo1">Dimpo Phiri</a>, code is

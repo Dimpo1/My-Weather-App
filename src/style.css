@@ -1,0 +1,115 @@
+body {
+  background-color: #e3f5e5;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(201, 198, 198);
+  border-radius: 5px;
+  height: 30px;
+  width: 830px;
+  margin: 20px 300px;
+  padding: 20px;
+}
+
+main {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(201, 198, 198);
+  border-radius: 5px;
+  height: 400px;
+  width: 850px;
+  margin: 20px 300px;
+  padding: 10px;
+  position: flex;
+  flex-direction: row;
+}
+
+footer {
+  text-align: center;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: #ffaaa5;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  color: grey;
+}
+
+/*.currentTemperature {
+  display: flex;
+  justify-content: left;
+  right: -100px;
+}*/
+p strong {
+  color: #ffaaa5;
+}
+
+/*sub {
+  margin-top: 5px;
+  top: 20px;
+}*/
+.weatherAppData {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(230, 226, 226);
+}
+
+.searchInput {
+  width: 500px;
+  height: 35px;
+  margin: 0 auto;
+  background-color: #f5f4e8;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.search {
+  height: 35px;
+  width: 70px;
+  background-color: #fad3cf;
+  border: 1px solid #fad3cf;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(201, 198, 198);
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.temp {
+  font-size: 80px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.unit {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#currentTemperature {
+  display: flex;
+}
+#searchForm {
+  padding: 0;
+  margin: 0px 5px;
+}
