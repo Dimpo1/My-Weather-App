@@ -21,7 +21,7 @@ main {
   height: 400px;
   width: 850px;
   margin: 20px 300px;
-  padding: 10px;
+  padding: 12px;
   position: flex;
   flex-direction: row;
 }
@@ -96,9 +96,9 @@ p strong {
   margin-left: 10px;
 }
 
-.icon {
+#icon {
   font-size: 40px;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .unit {
@@ -111,5 +111,5 @@ p strong {
 }
 #searchForm {
   padding: 0;
-  margin: 0px 5px;
+  margin: 0px 10px;
 }
