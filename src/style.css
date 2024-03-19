@@ -106,6 +106,23 @@ p strong {
   font-size: 30px;
 }
 
+.forecast {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 25px;
+}
+
+.weather-forecast-temperature {
+  font-size: 18px;
+}
+
+.min-temp {
+  color: #ffaaa5;
+}
+
 #currentTemperature {
   display: flex;
 }
