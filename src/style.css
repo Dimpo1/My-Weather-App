@@ -106,9 +106,13 @@ p strong {
   font-size: 30px;
 }
 
-.forecast {
-  margin-top: 50px;
+.weather-forecast {
+  /*margin-top: 50px;*/
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
 }
 
 .weather-forecast-date {
