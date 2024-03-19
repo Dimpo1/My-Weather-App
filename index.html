@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Dimpo's Weather App</title>
   </head>
@@ -30,7 +30,7 @@
     <main>
       <div class="weatherAppData">
         <div>
-          <h1 id="myCity">Midrand</h1>
+          <div id="city"></div>
           <p>
             Time, scattered clouds
             <br />
@@ -40,8 +40,8 @@
         <div id="currentTemperature">
           <div class="icon">🌧️</div>
 
-          <div class="temp">
-            <strong>24</strong>
+          <div class="temp" id="temp">
+            <strong></strong>
           </div>
           <div class="unit">°C</div>
         </div>
